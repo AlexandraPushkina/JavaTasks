@@ -1,10 +1,10 @@
 package Homework3.task_2;
 
 public class Employee {
-    private String fullName;
-    private String position;
-    private String email;
-    private String phone;
+    private final String fullName;
+    private final String position;
+    private final String email;
+    private final String phone;
     private double salary;
     private short age;
 
